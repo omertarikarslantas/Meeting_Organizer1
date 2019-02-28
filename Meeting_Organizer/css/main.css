@@ -1,0 +1,57 @@
+﻿.maindiv {
+    display:table; width:100%;
+}
+
+.form {
+    float:left;
+    width:45%;
+    margin-right:5%;
+}
+
+.list {
+    float: right;
+    width: 50%;
+}
+
+.col {
+    display: block;
+    width: 95%;
+    margin: 0 2.5% 2.4rem 2.5%;
+}
+
+.c-label {
+    display: inline-block;
+    color: #667582;
+    line-height: 1.5;
+}
+
+.c-form-text {
+    display: block;
+    font: inherit;
+    outline: none;
+    width: 94.6%;
+    padding: .8571428571em 2.5%;
+    font-size: 1em;
+    line-height: 1.5;
+    background-image: none;
+    color: #485369;
+    background-color: #f5f8f9;
+    border: 1px solid #d6dce7;
+    border-radius: .4rem;
+    transition: border .3s,background-color .3s;
+}
+
+    .c-form-text:focus {
+        background-color: #fff;
+        border-color: #1b6fff;
+        color: #1b6fff;
+    }
+
+
+.block {
+    margin:20px 0;
+}
+
+#silbtn {
+    margin-top:10px;
+}
